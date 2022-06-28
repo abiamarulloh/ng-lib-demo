@@ -2,7 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'ld-root',
-  templateUrl: './app.component.html',
+  template: `
+    <ts-poster [showId]="336"></ts-poster>
+  `,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
